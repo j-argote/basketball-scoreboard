@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    background-image: url("court2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    margin: 100px auto 0 auto;
+    border: 5px solid #0B1821;
+    border-radius: 50px;
+}
+
+h3{        
+    margin: 70px 0 0 0;
+    color: #EEE;
+    font-family: 'Verdana';
+    font-size: 40px;
+}
+
+h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background: #080001;
+    color: #BE123C;
+    text-align: center;
+    font-size: 90px;
+    margin: 20px 0 0 0;
+    font-family: 'Cursed Timer ULiL';
+    border-radius: 5px;
+    width: 155px;
+    height: 120px;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 70px 0;
+}
+
+button{
+    background: #0B1821;
+    border: 2px solid #8FA8A4;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    color: #8FA8A4;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 18px;
+}
+
+button:hover{
+    background: #1C3E2D;
+    border: 2px solid #0B1821;
+    color: white;
+}
+
+button:focus{
+    outline: none;
+}
+
+#newgame{
+    margin: 20px;
+}
+
+#btn-newgame{
+    width: 200px;
+    height: 50px;
+    border: 2px solid #8FA8A4;
+}
+
+#btn-newgame:hover{
+    background: red;
+    color: white;
+    border: 2px solid white;
+}
